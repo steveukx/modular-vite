@@ -1,0 +1,11 @@
+{
+  "name": "@modular-vite/modular-app",
+  "private": true,
+  "modular": {
+    "type": "app"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "@modular-vite/modular-source": "*"
+  }
+}

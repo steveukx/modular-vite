@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 1rem;
+
+  main {
+    flex: 1 1 0;
+  }
+}
+
+.App-header {
+  flex: 0 0 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0fa;
+}
