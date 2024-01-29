@@ -1,0 +1,28 @@
+{
+  "extends": "modular-scripts/tsconfig.json",
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@stories/*": [
+        "packages/ag-grid-theme/stories/*",
+        "packages/core/stories/*",
+        "packages/data-grid/stories/*",
+        "packages/icons/stories/*",
+        "packages/lab/stories/*",
+        "packages/theme/stories/*"
+      ]
+    },
+    "types": ["cypress", "@testing-library/cypress", "node"]
+  },
+  "include": [
+    "modular",
+    "packages",
+    "integration/toolkit",
+    "docs",
+    "tooling",
+    "cypress",
+    "./declarations.d.ts"
+  ]
+}

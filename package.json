@@ -1,0 +1,44 @@
+{
+  "name": "modular-vite",
+  "version": "1.0.0",
+  "description": "Example of using modular and vite in a monorepo",
+  "main": "index.js",
+  "author": "Steve King <steve@mydev.co>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/"
+  ],
+  "dependencies": {
+    "@types/node": "^20.11.10",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "@typescript-eslint/eslint-plugin": "^6.19.1",
+    "@typescript-eslint/parser": "^6.19.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "clsx": "^2.1.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-cypress": "^2.15.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-local-rules": "^2.0.1",
+    "eslint-plugin-storybook": "^0.6.15",
+    "modular-scripts": "patch:modular-scripts@npm:3.6.0#.yarn/patches/modular-scripts-npm-3.6.0-d967962075.patch",
+    "prettier": "^3.2.4",
+    "pretty-quick": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12",
+    "vite-plugin-istanbul": "^5.0.0",
+    "vite-tsconfig-paths": "^4.3.1",
+    "vitest": "^1.2.2"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8"
+  },
+  "resolutions": {
+    "modular-scripts/rollup": "2.79.1"
+  },
+  "packageManager": "yarn@4.0.2"
+}
